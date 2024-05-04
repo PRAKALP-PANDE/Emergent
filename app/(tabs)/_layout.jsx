@@ -13,7 +13,7 @@ const TabIcon = ({ icon, color, name, focused }) => {
         tintColor={color}
         className="w-6 h-6"
       />
-      <Text className={`${focused ? 'font-psemibold' : 'font-pregular'} text-xs`}>
+      <Text className={`${focused ? 'font-psemibold' : 'font-pregular'} text-xs`} style={{color: color}}>
         {name}
       </Text>
     </View>
